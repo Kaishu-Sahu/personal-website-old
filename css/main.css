@@ -1,0 +1,82 @@
+html,body{
+     height:100%;
+         width:100%;
+    
+}
+#fullpage{
+     height:100%;
+         width:100%;
+}
+#bimg1{
+     background-image: url('../img/bimg1.jpg');
+     height: 100%; 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+    
+    
+}
+#bimg2{
+     background-image: url('../img/bimg2.jpg');
+     height: 100%; 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;   
+
+}
+.rounded-circle{
+    border-color:#958258;
+    border-style: solid;
+    border-width: 5;
+    height:150px;
+    width: 150px;
+    margin-top: -10%; 
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+.rounded-circle:hover{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+    transform: scale(2);
+}
+
+#font{
+    font-family: 'Quattrocento', serif;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 2%;
+    
+}
+#icon{
+    font-size:48px;
+    color:black;
+}
+#icon:hover{
+    color:darkred; 
+}
+#skills{
+    color: darkred;
+    margin-top: -25%;
+    text-align: center;
+    font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    
+}
