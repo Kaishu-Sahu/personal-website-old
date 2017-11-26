@@ -22,10 +22,8 @@ html,body{
      height: 100%; 
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;
-    
-    
-    
+     background-size: cover;   
+
 }
 .rounded-circle{
     border-color:#958258;
@@ -33,7 +31,7 @@ html,body{
     border-width: 5;
     height:150px;
     width: 150px;
-    margin-top: -15%; 
+    margin-top: -10%; 
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
