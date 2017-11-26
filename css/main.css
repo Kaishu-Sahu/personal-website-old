@@ -33,7 +33,7 @@ html,body{
     border-width: 5;
     height:150px;
     width: 150px;
-    margin-top: -10%; 
+    margin-top: -15%; 
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
